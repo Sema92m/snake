@@ -14,7 +14,7 @@ const gameBoard = document.getElementById("game-board");
 
 function main(currentTime) {
     if (gameOver) {
-        if (confirm("You lost. Press ok to restart.")) {
+        if (confirm("Jerzy się rozjebał")) {
             window.location = "/";
         }
         return;
